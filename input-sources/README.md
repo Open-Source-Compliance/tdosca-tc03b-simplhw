@@ -33,13 +33,13 @@ To compile and install the program itself, do this:
 * Download and unzip test case package or clone the test case repository
 * Change into the directory *input-sources*
 * Call
-  - ``gradle build``
-  - ...
+  - ``gradle build`` or
+  - ``gradlew build``
 
 ## 5. Usage <a id="use"></a>
 * Change into the directory *input-sources*
 * Call
-  - ``gradle run``
+  - ``gradle(w) run``
   - or ``java -cp build/libs/tdosca-tc03b.jar tdosca.tc3.Main``
   - or
     - ``unzip build/distributions/tdosca-tc03b-simplhw.zip`` and

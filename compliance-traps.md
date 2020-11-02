@@ -12,3 +12,4 @@ The test case input (= open source software)
 * contains the gradle wrapper script, created by 'gradle wrapper' and the gradle-wrapper.jar  both licensed under the Apache-v2 license (= LICENSE.gradle) => A tool which automatically generates the sufficient compliance artifacts must/should create
   - the artifacts for the repository (= including the gradle artifacts)
   - the artifacts for the tdosca-tc03b.jar file (= excluding the gradle artifacts)
+* does not contain the gradle-NOTICE-file due to the fact, that the repository [https://github.com/gradle/gradle](https://github.com/gradle/gradle) itself does not contain such a file named NOTICE

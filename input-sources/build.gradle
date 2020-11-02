@@ -1,0 +1,39 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+// uncomment to apply ide specific plugin
+//apply plugin: 'idea'
+//apply plugin: 'eclipse'
+
+mainClassName = "tdosca.tc03b.Main"
+
+run.args = ["Reader"]
+
+// uncomment to read runArgs from project properties
+//run.args = [project.runArgs]
+
+// uncomment to change the archive's name
+distributions.main.distributionBaseName = 'tdosca-tc03b-simplhw'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  testImplementation 'junit:junit:4.12'
+}
+
+task copyLicense {
+    outputs.file new File("${buildDir}/share/doc/tdosca-tc03b/COPYING")
+    doLast {
+        mkdir "${buildDir}/share/doc/tdosca-tc03b"
+        copy {
+            from "COPYING"
+            into "${buildDir}/share/doc/tdosca-tc03b/"
+        }
+    }
+}
+
+applicationDistribution.from(copyLicense) {
+    into "share/doc/tdosca-tc03b"
+}

@@ -1,0 +1,3 @@
+tdosca-tc03b,1.0.0,MIT,DEFAULT,https://github.com/Open-Source-Compliance/tdosca-tc03b-simplhw/tree/master/input-sources
+tdosca-tc03b,1.0.0,BSD-2-CLAUSE,EnvService.java,https://github.com/Open-Source-Compliance/tdosca-tc03b-simplhw/tree/master/input-sources/src/main/java/de/fodina/tdosca/all/EnvService.java
+tdosca-tc03b,1.0.0,BSD-2-CLAUSE,EnvServiceTest.java,https://github.com/Open-Source-Compliance/tdosca-tc03b-simplhw/tree/master/input-sources/src/main/java/de/fodina/tdosca/all/EnvServiceTest.java

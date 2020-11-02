@@ -1,0 +1,10 @@
+# The Does (Tasks For Establishing The Open Source Compliance of SIMPLHW)
+
+TDOSCA-TC03B-SIMPLHW:
+  - "get the default project license"
+    - repository: https://github.com/Open-Source-Compliance/tdosca-tc03b-simplhw/tree/master/input-sources
+    - status: done
+  - "get the file license"
+    - EnvService.java
+    - repository: https://github.com/Open-Source-Compliance/tdosca-tc03b-simplhw/tree/master/input-sources/src/main/java/de/fodina/tdosca/all/EnvService.java
+    - status: done

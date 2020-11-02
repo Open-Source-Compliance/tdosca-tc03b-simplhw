@@ -48,4 +48,4 @@ To compile and install the program itself, do this:
 
 ## 6. Licensing <a id="lic"></a>
 
-The *input* the project *tdosca-tc03b-simplhw* is licensed under the terms of the MIT license. See the file COPYING in the top directory
+In general, the *input* the project *tdosca-tc03b-simplhw* is licensed under the terms of the MIT license (See the file COPYING in the top directory). But the gradle scripts (gradle/... gradlw gradlew.bat) which are created by `gradle wrappe` are licensed under the Apache-v2 license (see the file LICENSE.gradle in the top directory).

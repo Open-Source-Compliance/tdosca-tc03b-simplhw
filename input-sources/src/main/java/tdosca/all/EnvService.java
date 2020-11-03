@@ -34,19 +34,19 @@ import java.util.Map;
 public class EnvService {
   Map<String, String> env = System.getenv();
   String pwd = null;
-
+  String inc = "------";
   public String info() {
-    System.out.println("...tdosca.all.EnvService() says 'hello'.");
-    System.out.println("license:BSD-2CL");
+    System.out.println(inc+"tdosca.all.EnvService(): 'hello'.");
+    System.out.println(inc+"license(EnvService,B.S.D-2CL)");
     if (env != null) {
       pwd=env.get("PWD");
     }
     if (pwd!=null) {
-      System.out.println("Program is started from " + pwd);
+      System.out.println(inc+"Program is started from " + pwd);
     } else {
-      System.out.println("PWD not specified in the environment");
+      System.out.println(inc+"PWD not specified in the environment");
     }
-    System.out.println("...tdosca.all.EnvService(...) says 'bye bye'");
+    System.out.println(inc+"tdosca.all.EnvService(...): 'bye bye'");
     return "back0";
   }
 }

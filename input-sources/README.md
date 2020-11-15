@@ -13,7 +13,7 @@ Copyright (C) 2020 Karsten Reincke / Deutsche Telekom AG
 ## 1. Purpose <a id="pur"></a>
 One task of the project [Test-Driven Open Source Compliance Automation](https://github.com/Open-Source-Compliance/tdosca) is to define test cases consisting of program sources and reference compliance artifacts which - added to the program package - would ensure to distribute the open source program compliantly.
 
-The project TDOSCA-TC03B-SIMPLHW is the software input of the test case no. 3A. It is part of the repository *tdosca-tc03b-simplhw* and is a ***very simple hello world*** program.
+The project TDOSCA-TC03B-SIMPLHW is the software input of the test case no. 3b. It is part of the repository *tdosca-tc03b-simplhw* and is a ***very simple hello world*** program.
 
 ## 2. Prerequisites <a id="prq"></a>
 * operating system

@@ -83,7 +83,10 @@ POSSIBILITY OF SUCH DAMAGE.
 - Scope: Default
   - LicenseID: Apache-2.0
   - LicenseText: see [multiply usable license instance](#Apache-2.0)
-
+  - NoticeFile:
+```
+The repository does not contain a NOTICE file corresponding to section 4d of the Apache License Version 2.0
+```
 
 ## 4) Multiply used license texts:
 

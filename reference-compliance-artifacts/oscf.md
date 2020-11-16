@@ -9,7 +9,7 @@
 ## 2.) Index of included FOSS packages (= BOM)  
 
 - [tdosca-tc03b](#TDOSCA-TC03b) 1.0 MIT
-- [gradle-wrapper](#GRADLE-WRAPPER) ??  Apache-2.0
+- [gradle-wrapper](#GRADLE-WRAPPER) 6.7  Apache-2.0
 
 ## 3.) Compliance Artifacts for the included FOSS packages
 
@@ -82,10 +82,11 @@ POSSIBILITY OF SUCH DAMAGE.
 - **TODO:** *organize an include the package specific meta data*
 - Scope: Default
   - LicenseID: Apache-2.0
-  - LicenseText: see [multiply usable license instance](Apache-2.0)
+  - LicenseText: see [multiply usable license instance](#Apache-2.0)
 
 
 ## 4) Multiply used license texts:
+
 <a name="Apache-2.0"> </a>
 ### 4.1) Apache-2.0
 

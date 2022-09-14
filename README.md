@@ -1,4 +1,8 @@
-# Test-Driven Open Source Compliance Automation Test Case No. 3b: a Simple Hello World with JAVA and gradle (including gradle wrapper)
+# Deprecated TDOSCA-TC03b
+
+***The case systematic has been reorganized. Valid cases now have a number >= 10 ...***
+
+TC03b stood for 'Test-Driven Open Source Compliance Automation Test Case No. 3b: a Simple Hello World with JAVA and gradle (including gradle wrapper)'
 
 ## General Context
 The "Test-Driven Open Source Compliance Automation" is an initiative initiated by Deutsche Telekom AG and hosted and driven by the [Open Chain Reference Tooling Work Group](http://oss-compliance-tooling.org/).
